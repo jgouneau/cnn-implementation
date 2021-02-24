@@ -1,4 +1,4 @@
-	import numpy as np
+import numpy as np
 import os
 import pickle
 from scipy.misc import imread, imsave, imresize
