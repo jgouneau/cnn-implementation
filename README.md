@@ -4,21 +4,21 @@ This is an implementation of a Convolutional Neural Network done in Python, whic
 
 It was my first big coding project, done in year 2018/2019 for my studies, it is quite messy :
 
-## /doc/
+## `/doc/`
 
 `/doc/Diapo_TIPE.pdf` : the final presentation which was shown to the jury, it contains all the results of this implementation (to sum up : a .7 accuracy and .6 loss on the CIFAR-10 in 10 epochs).
 
 `/doc/MCOT.pdf` : the abstract.
 
-## /src/
+## `/src/`
 
-`/src/Network.py` :
+### `/src/Network.py` :
 
 The core file of the code, here the network creation, executtion and testing fonctions are implemented ;
 
-  `Network` : implements the network as a pile of layers, the function of train over the whole dataset and of estimation of a pixel responsability in the output.
+`Network` : implements the network as a pile of layers, the function of train over the whole dataset and of estimation of a pixel responsability in the output.
 
-### Layers Implementations :
+#### Layers Implementations :
 
   `FullyConnected` : implements a fully-connected neural layer
 
@@ -26,7 +26,7 @@ The core file of the code, here the network creation, executtion and testing fon
 
   `Pooling` : implements a pooling layer
 
-### Activation and Output Implementations :
+#### Activation and Output Implementations :
 
   `Sigmoid` : implements the sigmoid activation function of a layer
 
@@ -34,16 +34,16 @@ The core file of the code, here the network creation, executtion and testing fon
 
   `Softmax` : implements the softmax activation function of a neural network
 
-### Other Functions :
+#### Other Functions :
 
   `Train_CIFAR()` : a function which creates/load a LeNet-5 based network and trains it on one loop of the whole dataset
 
   `Test_Response()`, `print_error()` : functions to evaluate the quality of the network over the test dataset
 
-  `/src/Preprocessing.py` :
+### `/src/Preprocessing.py` :
 
    Here are the scripts to preprocess the data (normalize, center, reshape).
 
-   `/src/hist` :
+### `/src/hist` :
 
    Contains the whole evolution of the `Network.py` script.
