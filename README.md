@@ -8,7 +8,7 @@ It was my first big coding project, done in year 2018/2019 for my studies, it is
 
 `/doc/Diapo_TIPE.pdf` : the final presentation which was shown to the jury, it contains all the results of this implementation (to sum up : a .7 accuracy and .6 loss on the CIFAR-10 in 10 epochs).
 
-`MCOT.pdf` : the abstract.
+`/doc/MCOT.pdf` : the abstract.
 
 ## /src/
 
@@ -44,6 +44,6 @@ The core file of the code, here the network creation, executtion and testing fon
 
    Here are the scripts to preprocess the data (normalize, center, reshape).
 
-   `src/hist` :
+   `/src/hist` :
 
    Contains the whole evolution of the `Network.py` script.
