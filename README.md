@@ -14,7 +14,7 @@ It was my first big coding project, done in year 2018/2019 for my studies, it is
 
 ### `/src/Network.py` :
 
-The core file of the code, here the network creation, executtion and testing fonctions are implemented ;
+The core file of the code, here the network creation, executtion and testing functions are implemented ;
 
 `Network` : implements the network as a pile of layers, the function of train over the whole dataset and of estimation of a pixel responsability in the output.
 
